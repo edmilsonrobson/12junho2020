@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #d8d9ee;
+            background-image: url("sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+            background-position: center;
+            background-size: 100%;
+            color: white;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        ::selection {
+            color: #cccfff;
+            background: #ffbab4;
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 6px;
+            
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #ffe5cf;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #ffaaa3;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #bdc3f1;
+        }
+
+
+        .wrapper {
+            position: relative;
+            display: block;
+            /* background-color: blueviolet; */
+            border-radius: 30px;
+            width: 1090px;
+            height: 572px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .image-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 1%;
+            transform: translate(0, -50%);
+            width: 550px;
+            height: 550px;
+        }
+
+        .image {
+            height: 550px;
+            border-radius: 30px 0px 0px 30px;
+        }
+
+        .scrollable {
+            position: absolute;
+            right: 1%;
+            top: 13.5%;
+            right: 1%;
+            height: 425px; 
+            overflow-y: auto;
+            width: 500px;
+            font-family: 'Manrope', sans-serif;
+            /* background-color: aquamarine; /* temporary */
+            /* border: 3px solid deeppink;  */
+        }
+
+        p {
+            margin: 8px;
+            white-space: pre-line;
+        }
+
+        button {
+            background-color: white;
+            color: #bdc3f1;
+            border: none;
+            border-radius: 20px;
+            padding: 7px 28px;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 10px 2px;
+            cursor: pointer;
+            outline: none;
+            transition-duration: 0.2s;
+            /* font-family: 'Manrope', sans-serif; */
+        }
+
+        button:hover {
+            background-color: #ffaaa3; 
+            color: white;
+        }
+
+        button:active {
+            background-color: #d8d9ee;
+        }
+
+        .back {
+            position: absolute;
+            bottom: 1%;
+            right: 36.5%;
+        }
+
+        .next {
+            position: absolute;
+            bottom: 1%;
+            right: 1%;
+        }
+
+        .wrapperbg {
+            position: absolute;
+            display: block;
+            width: 1090px;
+            height: 572px;
+            border-radius: 32px;
+            opacity: 40%;
+            background-color: #fff2e6;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h2 {
+            font-family: 'Sacramento', cursive;
+        }
+
+        .title {
+            position: absolute;
+            top: 0.7%;
+            right: 22%;
+            font-size: 37px;
+            z-index: 1;
+        }
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- font-family: 'Manrope', sans-serif;
+        font-family: 'Sacramento', cursive; -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibis</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="title">
+            <h2>#isamilsonislove</h2>
+        </div>
+
+        <div class="wrapperbg">
+        </div>
+        
+        <div class="image-wrapper">
+            <img src="chibi-loves2.png" class="image" alt="">
+        </div>
+        <div class="scrollable">
+            <table>
+                <p> 
+                    E depois do "a single touch", esse foi o primeiro desenho, ou até a primeira imagem, que vimos de nós dois juntinhos.
+
+                    Apesar de ser o desenho de chibis mais antigo, e definitivamente não ser o mais atraente ou interessante visualmente, ainda acho que de todos os meus desenhos estilizados de ti, esse é o que mais se parece contigo de verdade! E eu fico chocada porque fiz ele antes de te ver pessoalmente, e igual sinto que te capturei muito bem. Por isso ele ainda tem um lugar muito especial no meu coração.
+
+                    Tipo tu, edzinho que tem o lugar mais especial de todos no meu coração ;-; ❤❤
+                    Como a chibi Isa desse desenho, eu quero ficar agarradinha no teu braço pra todo sempre, te dando beijinho, enquanto tu trabalha, enquanto tu joga, enquanto tu faz qualquer coisa ;-; sempre comigo do lado, porque o que eu mais quero é ficar pertinho de ti e eu preciso compensar todo esse tempo que a gente tá passando longe, ne?
+                </p>
+            </table>
+        </div>
+
+        <button class="back" onclick="window.location.href='asingletouch.html';">
+            back
+        </button>
+        
+        <button class="next" onclick="window.location.href='6months.html';">
+            next
+        </button>
+
+    </div>
+
+</body>
+</html>

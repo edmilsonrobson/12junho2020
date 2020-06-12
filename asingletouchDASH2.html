@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #d8d9ee;
+            background-image: url("sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+            background-position: center;
+            background-size: 100%;
+            color: white;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        ::selection {
+            color: #cccfff;
+            background: #ffbab4;
+        }
+
+                /* width */
+        ::-webkit-scrollbar {
+            width: 6px;
+            
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #ffe5cf;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #ffaaa3;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #bdc3f1;
+        }
+
+
+        .wrapper {
+            position: relative;
+            display: block;
+            /* background-color: blueviolet; */
+            border-radius: 30px;
+            width: 1090px;
+            height: 572px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .image-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 1%;
+            transform: translate(0, -50%);
+            width: 550px;
+            height: 550px;
+        }
+
+        .image {
+            height: 550px;
+            border-radius: 30px 0px 0px 30px;
+        }
+
+        .scrollable {
+            position: absolute;
+            right: 1%;
+            top: 13.5%;
+            right: 1%;
+            height: 425px; 
+            overflow-y: auto;
+            width: 500px;
+            font-family: 'Manrope', sans-serif;
+            /* background-color: aquamarine; /* temporary */
+            /* border: 3px solid deeppink;  */
+        }
+
+        p {
+            margin: 8px;
+            white-space: pre-line;
+        }
+
+        button {
+            background-color: white;
+            color: #bdc3f1;
+            border: none;
+            border-radius: 20px;
+            padding: 7px 28px;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 10px 2px;
+            cursor: pointer;
+            outline: none;
+            transition-duration: 0.2s;
+            /* font-family: 'Manrope', sans-serif; */
+        }
+
+        .next {
+            position: absolute;
+            bottom: 1%;
+            right: 1%;
+        }
+
+        .home {
+            color: #bdc3f1;
+            position: absolute;
+            bottom: 1%;
+            right: 21%;
+        }
+
+        button:hover {
+            background-color: #ffaaa3; 
+            color: white;
+        }
+
+        button:active {
+            background-color: #d8d9ee;
+        }
+
+        .wrapperbg {
+            position: absolute;
+            display: block;
+            width: 1090px;
+            height: 572px;
+            border-radius: 32px;
+            opacity: 40%;
+            background-color: #fff2e6;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h2 {
+            font-family: 'Sacramento', cursive;
+        }
+
+        .title {
+            position: absolute;
+            top: 0.7%;
+            right: 30%;
+            font-size: 37px;
+            z-index: 1;
+        }
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- font-family: 'Manrope', sans-serif;
+        font-family: 'Sacramento', cursive; -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/de8565ad4b.js" crossorigin="anonymous"></script>
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="title">
+            <h2>Welcome</h2>
+        </div>
+
+        <div class="wrapperbg">
+        </div>
+        
+        <div class="image-wrapper">
+            <img src="asingletouch.png" class="image" alt="">
+        </div>
+        <div class="scrollable">
+            <table>
+                <p> 
+                    Bem-vindo, gatinho, à surpresinha que preparei pra ti com muito amor e carinho ❤
+                    Foi muito difícil de achar as senhas? Espero que tu tenha gostado da web-hunt *o* Agora aproveita essa bobagenzinha que eu fiz pra ti, eu espero que tu goste dela tanto quanto eu!
+                    
+                    Vou te levar pra passear numa memory lane de alguns desenhos que já fiz pra ti. Espero que tu goste de relembrar eles, e que te faça sentir muito especial, porque todos os desenhos que já te fiz foi com muito carinho porque tu és a pessoa especial da minha vida *-*
+
+                    Então vamos lá!
+                    Pra iniciar, aqui tu já viu o very first, ne? Primeiro desenho que fiz "de nós", em 2016. Chamei ele de "a single touch", porque sempre foi como eu me sentia antes de poder estar contigo fisicamente, eu já ansiava tanto pelo teu toque, que parecia que era só tu me tocar and I might start disintegrating...
+
+                    Era uma sensação esquisita pensar nisso, mas eu não poderia estar mais certa... Realmente quando estive contigo pessoalmente desde a primeira vez foi muito mágico, e de fato quando tu me toca eu sinto isso até hoje. Eu não sei definir o que eu sinto, mas "desintegrar" parece que define bem enquanto não encontro uma palavra melhor. I feel like dying in your arms (the good dying) and I love it.
+
+                    Mas vamos por partes, ne? Em 2016 a gente ainda só sonhava em se ver pessoalmente, e tiveram muitos desenhos! Clica no botãozinho de next aí bonitinho pra ver o próximo! :3 
+                </p>
+            </table>
+        </div>
+        
+        <button class="next" onclick="window.location.href='isamilson-chibisDASH2.html';">
+            next
+        </button>
+
+        <button class="home" onclick="window.location.href='DASH2.html';">
+            <i class="fas fa-home"></i>
+        </button>
+
+    </div>
+
+</body>
+</html>

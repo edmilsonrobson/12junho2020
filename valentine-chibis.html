@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #d8d9ee;
+            background-image: url("sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+            background-position: center;
+            background-size: 100%;
+            color: white;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        ::selection {
+            color: #cccfff;
+            background: #ffbab4;
+        }
+
+                /* width */
+        ::-webkit-scrollbar {
+            width: 6px;
+            
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #ffe5cf;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #ffaaa3;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #bdc3f1;
+        }
+
+
+        .wrapper {
+            position: relative;
+            display: block;
+            /* background-color: blueviolet; */
+            border-radius: 30px;
+            width: 1090px;
+            height: 572px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .image-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 1%;
+            transform: translate(0, -50%);
+            width: 550px;
+            height: 550px;
+        }
+
+        .image {
+            height: 550px;
+            border-radius: 30px 0px 0px 30px;
+            /* border: 2px solid white; */
+        }
+
+        .scrollable {
+            position: absolute;
+            right: 1%;
+            top: 13.5%;
+            right: 1%;
+            height: 425px; 
+            overflow-y: auto;
+            width: 380px;
+            font-family: 'Manrope', sans-serif;
+            /* background-color: aquamarine; /* temporary */
+            /* border: 3px solid deeppink;  */
+        }
+
+        p {
+            margin: 8px;
+            white-space: pre-line;
+        }
+
+        button {
+            background-color: white;
+            color: #bdc3f1;
+            border: none;
+            border-radius: 20px;
+            padding: 7px 28px;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 10px 2px;
+            cursor: pointer;
+            outline: none;
+            transition-duration: 0.2s;
+            /* font-family: 'Manrope', sans-serif; */
+        }
+
+        button:hover {
+            background-color: #ffaaa3; 
+            color: white;
+        }
+
+        button:active {
+            background-color: #d8d9ee;
+        }
+
+        .back {
+            position: absolute;
+            bottom: 1%;
+            right: 25.5%;
+        }
+
+        .next {
+            position: absolute;
+            bottom: 1%;
+            right: 1%;
+        }
+
+        .wrapperbg {
+            position: absolute;
+            display: block;
+            width: 1090px;
+            height: 572px;
+            border-radius: 32px;
+            opacity: 40%;
+            background-color: #fff2e6;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h2 {
+            font-family: 'Sacramento', cursive;
+        }
+
+        .title {
+            position: absolute;
+            top: 1%;
+            right: 6%;
+            font-size: 37px;
+            z-index: 1;
+        }
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- font-family: 'Manrope', sans-serif;
+        font-family: 'Sacramento', cursive; -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Chibis</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="title">
+            <h2>Valentine Chibis</h2>
+        </div>
+
+        <div class="wrapperbg">
+        </div>
+        
+        <div class="image-wrapper">
+            <img src="vltns-chibi-1.png" class="image" alt="">
+        </div>
+        <div class="scrollable">
+            <table>
+                <p> 
+                    Ahh, esse aqui tu já cansou de ver, ne? Ou não? tá fã ainda? Tu usa o sticker dele toda hora no telegram asuhiduhasud e foi uma alegria pra mim fazer esse desenhozinho *-*
+
+                    Esse eu fiz de Valentine's Day em fevereiro de 2019 pra ti, pensando na gente sentados no chão do meu quarto no calor do verão. Fico feliz de pensar como os desenhos mudaram de 2016 pra cá, em que as imagens começaram a não só representar a gente, mas também as coisas que a gente faz mesmo quando tá junto, os jeitos que a gente fica e se abraça, uma coisa mais próxima mesmo... 
+
+                    Quando eu terminar o mestrado (É, MINHA FRASE PREFERIDA, SIM), eu quero fazer muito mais desenhinhos de stickers e coisinhas pra nós *-* E não quero nunca parar de desenhar a gente e as nossas coisinhas, mesmo depois que a gente tiver constantemente perto, e eu morar na tua casa e tu na minha *-* 
+                </p>
+            </table>
+        </div>
+        
+        <button class="back" onclick="window.location.href='goddess.html';">
+            back
+        </button>
+        
+        <button class="next" onclick="window.location.href='dash.html';">
+            next
+        </button>
+
+    </div>
+
+</body>
+</html>

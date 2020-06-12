@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #d8d9ee;
+            background-image: url("sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+            background-position: center;
+            background-size: 100%;
+            color: white;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        ::selection {
+            color: #cccfff;
+            background: #ffbab4;
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 6px;
+            
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #ffe5cf;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #ffaaa3;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #bdc3f1;
+        }
+
+
+        .wrapper {
+            position: relative;
+            display: block;
+            /* background-color: blueviolet; */
+            border-radius: 30px;
+            width: 1090px;
+            height: 572px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .image-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 1%;
+            transform: translate(0, -50%);
+            width: 550px;
+            height: 550px;
+        }
+
+        .image {
+            height: 550px;
+            border-radius: 30px 0px 0px 30px;
+        }
+
+        .scrollable {
+            position: absolute;
+            right: 1%;
+            top: 13.5%;
+            right: 1%;
+            height: 425px; 
+            overflow-y: auto;
+            width: 305px;
+            font-family: 'Manrope', sans-serif;
+            /* background-color: aquamarine; /* temporary */
+            /* border: 3px solid deeppink;  */
+        }
+
+        p {
+            margin: 8px;
+            white-space: pre-line;
+        }
+
+        button {
+            background-color: white;
+            color: #bdc3f1;
+            border: none;
+            border-radius: 20px;
+            padding: 7px 28px;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 10px 2px;
+            cursor: pointer;
+            outline: none;
+            transition-duration: 0.2s;
+            /* font-family: 'Manrope', sans-serif; */
+        }
+
+        button:hover {
+            background-color: #ffaaa3; 
+            color: white;
+        }
+
+        button:active {
+            background-color: #d8d9ee;
+        }
+
+        .back {
+            position: absolute;
+            bottom: 1%;
+            right: 18.5%;
+        }
+
+        .next {
+            position: absolute;
+            bottom: 1%;
+            right: 1%;
+        }
+
+        .wrapperbg {
+            position: absolute;
+            display: block;
+            width: 1090px;
+            height: 572px;
+            border-radius: 32px;
+            opacity: 40%;
+            background-color: #fff2e6;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h2 {
+            font-family: 'Sacramento', cursive;
+        }
+
+        .title {
+            position: absolute;
+            top: 0.7%;
+            right: 4.5%;
+            font-size: 37px;
+            z-index: 1;
+        }
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- font-family: 'Manrope', sans-serif;
+        font-family: 'Sacramento', cursive; -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intuos thanks!</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="title">
+            <h2>Intuos thanks!</h2>
+        </div>
+
+        <div class="wrapperbg">
+        </div>
+        
+        <div class="image-wrapper">
+            <img src="photo_2017-01-27_23-01-42.jpg" class="image" alt="">
+        </div>
+        <div class="scrollable">
+            <table>
+                <p> 
+                    Lembra desse?
+
+                    Esse desenho é muito especial porque eu fiz ele pra te agradecer por ter me dado a intuos, com a intuos! Sim, além de tudo antes mesmo de a gente completar um ano de namoricozinho sghsddhfhj tu já estava me dando um dos melhores presentes da vida e que eu amo de paixão!! Então foi um dos primeiros desenhos que fiz com ela, e todos os desenhos depois desse, também fiz com ela, até hoje! *0* Que incrível, não? 
+                    
+                    Eu e a intuos agora já vivemos muitas aventuras juntas, e eu sinto que meu traço teve alguns dos meus melhores saltos de habilidade com ela, e sério... Ela melhorou minha produtividade enquanto desenho em 200%! Com todos esses atalhos e tal? Não vivo mais sem. Assim como não vivo mais sem tu ;-;
+
+                    It's funny porque tu é o cara da produtividade, ne? Um dia eu aprendo contigo.... kkkkkkk
+
+                    Esse desenho também fiz e coloquei acho que na primeira web-hunt que fiz pra ti, pro nosso 1 ano de "coisinha", não foi? 
+                </p>
+            </table>
+        </div>
+
+        <button class="back" onclick="window.location.href='6months.html';">
+            back
+        </button>
+        
+        <button class="next" onclick="window.location.href='puzzle.html';">
+            next
+        </button>
+
+    </div>
+
+</body>
+</html>

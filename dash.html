@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #d8d9ee;
+            background-image: url("sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+            background-attachment: fixed;
+            color: white;
+            background-position: center;
+            background-size: 100%;
+            color: white;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        ::selection {
+            color: #cccfff;
+            background: #ffbab4;
+        }
+
+        .wrapper {
+            position: relative;
+            display: block;
+            /* background-color: blueviolet; */
+            border-radius: 30px;
+            width: 1090px;
+            height: 650px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .dash h2 {
+            margin-bottom: 0.1em;
+            font-size: 40px;
+            text-align: center;
+            padding-bottom: 10px;
+            font-family: 'Sacramento', cursive;
+        }
+
+        .dash .grid {
+            display: grid;
+            gap: 1.5em;
+    
+            grid-template-columns: repeat(4, 230px);
+            justify-content: center;
+            align-content: center;
+            height: 72vh;
+            /* background-color: rebeccapurple; */
+            font-family: 'Manrope', sans-serif;
+            font-size: small;
+        }
+
+        .dash figure {
+            text-align: center;
+        }
+
+        .img-dash {
+            width: 215px;
+            height: 215px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 50%;
+            transition: transform, 400ms;
+        }
+        
+        .img-dash:hover {
+            transform: scale(1.2);
+        }
+
+        .wrapperbg {
+            position: absolute;
+            display: block;
+            width: 1090px;
+            height: 572px;
+            border-radius: 32px;
+            opacity: 40%;
+            background-color: #fff2e6;
+            left: 50%;
+            top: 53%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- font-family: 'Manrope', sans-serif;
+         font-family: 'Sacramento', cursive; -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="wrapperbg">
+        </div>
+
+        <section class="dash" id="dash">
+            <h2>Dashboard</h2>
+      
+            <div class="grid">
+      
+              <figure>
+                <a href="asingletouch.html">
+                  <img class="img-dash" src="asingletouch.png" alt="">
+                </a>
+                <figcaption>2016 - a single touch</figcaption>
+              </figure>
+              <figure>
+                <a href="isamilson-chibis.html">
+                  <img class="img-dash" src="chibi-loves2.png" alt="">
+                </a>
+                <figcaption>2016 - #isamilsonislove</figcaption>
+              </figure>
+              <figure>
+                <a href="6months.html">
+                  <img class="img-dash" src="mbe-kss.png" alt="">
+                </a>
+                <figcaption>2016 - 6 months</figcaption>
+              </figure>
+              <figure>
+                <a href="intuos-thanks.html">
+                  <img class="img-dash" src="photo_2017-01-27_23-01-42.jpg" alt="">
+                </a>
+                <figcaption>2017 - Intuos Thanks</figcaption>
+              </figure>
+              <figure>
+                <a href="puzzle.html">
+                  <img class="img-dash" src="valentinespuzzle.jpg" alt="">
+                </a>
+                <figcaption>2017 - Isamilson Puzzle</figcaption>
+              </figure>
+              <figure>
+                <a href="goddess.html">
+                  <img class="img-dash" src="xgoddess-small.jpg" alt="">
+                </a>
+                <figcaption>2018 - Goddess </figcaption>
+              </figure>
+              <figure>
+                <a href="valentine-chibis.html">
+                  <img class="img-dash" src="vltns-chibi-1.png" alt="">
+                </a>
+                <figcaption>2019 - Valentine Chibis</figcaption>
+              </figure>
+              <figure>
+                <a href="semi-chibis.html">
+                  <img class="img-dash" src="semi-chibis-2020-secret.jpg" alt="">
+                </a>
+                <figcaption>2020 - ????</figcaption>
+              </figure>
+      
+            </div>
+      
+          </section>
+
+    </div>
+</body>
+</html>

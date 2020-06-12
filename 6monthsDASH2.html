@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #d8d9ee;
+            background-image: url("sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+            background-position: center;
+            background-size: 100%;
+            color: white;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        ::selection {
+            color: #cccfff;
+            background: #ffbab4;
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 6px;
+            
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #ffe5cf;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #ffaaa3;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #bdc3f1;
+        }
+
+
+        .wrapper {
+            position: relative;
+            display: block;
+            /* background-color: blueviolet; */
+            border-radius: 30px;
+            width: 1090px;
+            height: 572px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .image-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 1%;
+            transform: translate(0, -50%);
+            width: 550px;
+            height: 550px;
+        }
+
+        .image {
+            height: 550px;
+            border-radius: 30px 0px 0px 30px;
+        }
+
+        .scrollable {
+            position: absolute;
+            right: 1%;
+            top: 13.5%;
+            right: 1%;
+            height: 425px; 
+            overflow-y: auto;
+            width: 500px;
+            font-family: 'Manrope', sans-serif;
+            /* background-color: aquamarine; /* temporary */
+            /* border: 3px solid deeppink;  */
+        }
+
+        p {
+            margin: 8px;
+            white-space: pre-line;
+        }
+
+        button {
+            background-color: white;
+            color: #bdc3f1;
+            border: none;
+            border-radius: 20px;
+            padding: 7px 28px;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 10px 2px;
+            cursor: pointer;
+            outline: none;
+            transition-duration: 0.2s;
+            /* font-family: 'Manrope', sans-serif; */
+        }
+
+        button:hover {
+            background-color: #ffaaa3; 
+            color: white;
+        }
+
+        button:active {
+            background-color: #d8d9ee;
+        }
+
+        .back {
+            position: absolute;
+            bottom: 1%;
+            right: 36.5%;
+        }
+
+        .home {
+            color: #bdc3f1;
+            position: absolute;
+            bottom: 1%;
+            right: 20%;
+        }
+
+        .next {
+            position: absolute;
+            bottom: 1%;
+            right: 1%;
+        }
+
+        .wrapperbg {
+            position: absolute;
+            display: block;
+            width: 1090px;
+            height: 572px;
+            border-radius: 32px;
+            opacity: 40%;
+            background-color: #fff2e6;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h2 {
+            font-family: 'Sacramento', cursive;
+        }
+
+        .title {
+            position: absolute;
+            top: 0.7%;
+            right: 30%;
+            font-size: 37px;
+            z-index: 1;
+        }
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- font-family: 'Manrope', sans-serif;
+        font-family: 'Sacramento', cursive; -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/de8565ad4b.js" crossorigin="anonymous"></script>
+    <title>6 months</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="title">
+            <h2>6 months</h2>
+        </div>
+
+        <div class="wrapperbg">
+        </div>
+        
+        <div class="image-wrapper">
+            <img src="mbe-kss.png" class="image" alt="">
+        </div>
+        <div class="scrollable">
+            <table>
+                <p> 
+                    E esse, tu lembras? Esse eu sei que sim, porque eu fico sempre te lembrando dele... Ele que foi o nosso "primeiro beijo", não foi? Kkkkkk
+
+                    Eu diria que 21 anos sem te conhecer já foi até demais, então imagina 24 sem te beijar?? Eu sempre me lembro da gente sonhando com o dia em que a gente ia poder se ver, estar junto, pegar na mão e dar beijinho, e isso sempre me parecia tão impossível... As coisas mais simples de fazer contigo eram o sonho da minha vida, e eu pensava que nunca ia poder saber como seria beijar tua boca linda ;-; 
+
+                    Aliás, eu nem sabia como era beijar qualquer boca, quem dirá a tua que tava a mais de 3 mil quilômetros de mim kkkkkk E eu fico muito happy que tenha sido tu o meu first kiss, eu não preciso beijar mais nenhuma boquinha na minha vida ;-;
+                    
+                    Na época desse desenho, fazia a recém 6 meses que a gente tava de coisinha no telegram (kkkk), e hoje já faz bem mais de 6 meses do nosso first kiss oficial... Já vai fazer dois anos! Acredita? 
+
+                    Eu não acredito, porque pra dois anos te beijei tão pouco... Quero beijar ainda muito mais, porque pra todo esse tempo querendo beijar tua boca (2 anos e meio) ter te encontrado 4 vezes até agora e ter beijado por uns 4 meses no total é sacanagem ;-; Mas eu sei que a gente ainda vai ficar juntinho e se beijar bem muito, ne?
+                </p>
+            </table>
+        </div>
+
+        <button class="back" onclick="window.location.href='isamilson-chibisDASH2.html';">
+            back
+        </button>
+
+        <button class="home" onclick="window.location.href='DASH2.html';">
+            <i class="fas fa-home"></i>
+        </button>
+        
+        <button class="next" onclick="window.location.href='intuos-thanksDASH2.html';">
+            next
+        </button>
+
+    </div>
+
+</body>
+</html>
